@@ -6,6 +6,6 @@ exports.getUsers = (req, res) => {
   });
 };
 
-exports.loginUser = (req, res) => {};
-
 exports.registerUser = (req, res) => {};
+
+exports.loginUser = (req, res) => {};

@@ -11,6 +11,6 @@ app.use(bodyParser.json());
 
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
-app.use("/users", user_routes);
+app.use("/api", user_routes);
 
-app.listen(8080);
+app.listen(5000);
